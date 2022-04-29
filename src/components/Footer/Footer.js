@@ -10,6 +10,9 @@ import {
 import theme from '../../styles/theme';
 
 const Footer = () => {
+  if (window.location.pathname.includes('/mypage')) {
+    return null;
+  }
   return (
     <Wrap>
       <ContentsWrap>

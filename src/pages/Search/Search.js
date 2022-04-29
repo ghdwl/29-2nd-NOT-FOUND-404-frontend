@@ -151,7 +151,7 @@ const NoneSearchWrap = styled.div`
   -webkit-box-align: center;
 `;
 
-const NoneSearchTitle = styled.h2`
+const NoneSearchTitle = styled.h6`
   margin-bottom: 10px;
   color: ${theme.black};
   font-size: 18px;

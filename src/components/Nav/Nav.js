@@ -91,13 +91,17 @@ const Nav = () => {
     setBottomMenuDisplay('');
   };
 
+  if (window.location.pathname.includes('/mypage/edit')) {
+    return null;
+  }
+
   return (
     <Wrap>
       {currentLocation ? (
         <CreatorHeaderWrap>
           <CreatorHeaderContainer>
-            <CreatorLogoWrap to="/main">
-              <CreatorLogo src="/images/Nav/creator_logo.png" />
+            <CreatorLogoWrap to="/creator/mypage/product">
+              <CreatorLogo src="/images/Nav/creator_logo.svg" />
             </CreatorLogoWrap>
             <UserIconWrap>
               <UserIcon
@@ -213,7 +217,11 @@ const MainHeaderWrap = styled.div`
 
 const CreatorHeaderWrap = styled.div`
   ${theme.flexCustom('start', 'flex-start', 'column')}
+  position: fixed;
+  top: 0;
   width: 100%;
+  background-color: white;
+  z-index: 10000;
 `;
 
 const CreatorHeaderContainer = styled.div`

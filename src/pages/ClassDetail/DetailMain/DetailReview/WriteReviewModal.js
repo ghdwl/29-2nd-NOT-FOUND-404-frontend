@@ -171,7 +171,7 @@ const RatingWrapper = styled.div`
   text-align: center;
 `;
 
-const SubHeading = styled.h4`
+const SubHeading = styled.h6`
   margin: 24px 0;
   text-align: center;
   font-size: 18px;

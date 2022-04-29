@@ -17,7 +17,7 @@ export const HEADER_RIGHT_MENU = [
   {
     id: 1,
     name: '크리에이터 지원',
-    link: '/main',
+    link: '/creator',
   },
   {
     id: 2,
