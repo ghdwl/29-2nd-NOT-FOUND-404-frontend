@@ -51,7 +51,7 @@
 - createObjectURL, revokeObjectURL 메서드를 활용하여 이미지 미리보기, 삭제 기능 구현
 - TOAST UI Editor 라이브러리를 활용하여 웹 에디터 구현
 - useState를 사용하여 나가기 Modal창 구현
-- 폼 값이 다 채워졌을 경우 유무 따른 저장하기 버튼 활성화
+- 폼 값이 다 채워졌을 경우에만 저장하기 버튼 활성화
 - formData에 이미지, 폼, 에디터의 데이터를 담아 백엔드에 전송
 ```
 
